@@ -109,24 +109,24 @@ namespace all_exercises
 
             //// Part 2
             // 2-4
-            Console.WriteLine("Enter the first number:");
-            int firstNumber = int.Parse(Console.ReadLine());
+            // Console.WriteLine("Enter the first number:");
+            // int firstNumber = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter the second number:");
-            int secondNumber = int.Parse(Console.ReadLine());
+            // Console.WriteLine("Enter the second number:");
+            // int secondNumber = int.Parse(Console.ReadLine());
 
-            if (firstNumber > secondNumber)
-            {
-                Console.WriteLine(firstNumber + " is greater than " + secondNumber + ".");
-            }
-            else if (firstNumber < secondNumber)
-            {
-                Console.WriteLine(firstNumber + " is less than " + secondNumber + ".");
-            }
-            else
-            {
-                Console.WriteLine(firstNumber + " is equal to " + secondNumber + ".");
-            }
+            // if (firstNumber > secondNumber)
+            // {
+            //     Console.WriteLine(firstNumber + " is greater than " + secondNumber + ".");
+            // }
+            // else if (firstNumber < secondNumber)
+            // {
+            //     Console.WriteLine(firstNumber + " is less than " + secondNumber + ".");
+            // }
+            // else
+            // {
+            //     Console.WriteLine(firstNumber + " is equal to " + secondNumber + ".");
+            // }
         }
     }
 }
