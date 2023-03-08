@@ -6,6 +6,8 @@ namespace all_exercises
     {
         public static void Main(string[] args)
         {
+            //PrintUntilNumber(5);
+
             //Part 1:
             //1 - 10
             //1 - 15
@@ -127,6 +129,20 @@ namespace all_exercises
             // {
             //     Console.WriteLine(firstNumber + " is equal to " + secondNumber + ".");
             // }
+
+            //// 2-11
+
+            }
+            public static void PrintUntilNumber(int number)
+                {
+                    for (int i = 1; i <= number; i++)
+                    {
+                        Console.WriteLine(i);
+                    }
+                }
+
+
         }
-    }
+
 }
+
